@@ -10,27 +10,5 @@ This app returns the product of two numbers
 x = st.number_input('Enter Number1')
 y = st.number_input('Enter Number2')
 prod=x*y
-st.write('The productof the two numbers is ',prod)
-'''
-st.header('User Input Parameters')
+st.write('The product of the two numbers is ',prod)
 
-def user_input_features():
-
-    Number1 = st.number_input("NUMBER_1",min_value=-10**(100),max_value=10**(100))
-    Number2 = st.number_input("NUMBER_2",min_value=-10**(100),max_value=10**(100))
-
-
-    data = {'NUMBER_1': Number1,
-            'NUMBER_2': Number2
-            }
-    features = pd.DataFrame(data, index=[0])
-    return features
-
-df = user_input_features()
-
-st.subheader('User Input parameters')
-st.write(df.to_dict())
-
-result=Number1*Number2
-st.write('result')
-'''
