@@ -6,7 +6,12 @@ st.write("""
 This app returns the product of two numbers
 """)
 #Get Input
-
+#st.title('Odd-Even Finder')
+x = st.number_input('Enter a number')
+y = st.number_input('Enter a number')
+prod=x*y
+st.write('The productof the two numbers is ",prod)
+'''
 st.header('User Input Parameters')
 
 def user_input_features():
