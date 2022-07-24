@@ -1,9 +1,9 @@
 import streamlit as st
 
 st.write("""
-# Multiplication of 2 numbers TDS GA-8 21f1000957
+# TDS GA-8 21f1000957
 
-This app returns the product of two numbers
+Multiplication of 2 numbers
 """)
 #Get Input
 #st.title('Odd-Even Finder')
