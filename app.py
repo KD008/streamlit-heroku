@@ -7,8 +7,8 @@ This app returns the product of two numbers
 """)
 #Get Input
 #st.title('Odd-Even Finder')
-x = st.number_input('Enter a number')
-y = st.number_input('Enter a number')
+x = st.number_input('Enter Number1')
+y = st.number_input('Enter Number2')
 prod=x*y
 st.write('The productof the two numbers is ',prod)
 '''
